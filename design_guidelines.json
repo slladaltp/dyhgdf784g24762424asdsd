@@ -1,0 +1,142 @@
+{
+  "project_name": "YanaRPG",
+  "archetype": "ARCHETYPE 7: ELECTRIC & NEON / CINEMATIC GAMING (Hot Orange & Amber Accent)",
+  "language": "ru",
+  "theme": "dark",
+  "colors": {
+    "background": "#09090B",
+    "surface": "#121215",
+    "surface_elevated": "#1A1A1F",
+    "border_subtle": "rgba(255, 255, 255, 0.08)",
+    "border_glow": "rgba(255, 107, 0, 0.3)",
+    "primary": "#FF6B00",
+    "primary_hover": "#FF851B",
+    "amber_accent": "#FFA500",
+    "gold_glow": "#FFB800",
+    "text_primary": "#FFFFFF",
+    "text_secondary": "#9CA3AF",
+    "text_muted": "#6B7280",
+    "neon_gradient": "linear-gradient(135deg, #FF6B00 0%, #FF9900 50%, #FFB800 100%)",
+    "card_dark_bg": "rgba(18, 18, 21, 0.75)"
+  },
+  "typography": {
+    "headline_font": "'Barlow Condensed', 'Outfit', 'Cabinet Grotesk', sans-serif",
+    "body_font": "'Inter', 'Plus Jakarta Sans', sans-serif",
+    "mono_font": "'JetBrains Mono', monospace",
+    "hierarchy": {
+      "hero_title": "text-5xl sm:text-6xl lg:text-7xl font-black uppercase tracking-tight leading-none",
+      "h2_section": "text-3xl sm:text-4xl lg:text-5xl font-extrabold uppercase tracking-tight",
+      "h3_subtitle": "text-xl sm:text-2xl font-bold tracking-normal",
+      "body_text": "text-base sm:text-lg text-neutral-400 leading-relaxed",
+      "badge": "text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 border border-orange-500/20"
+    }
+  },
+  "layout_and_spacing": {
+    "container_padding": "px-4 sm:px-6 lg:px-12 max-w-7xl mx-auto",
+    "section_spacing": "py-20 lg:py-32",
+    "bento_grid": "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6",
+    "news_grid": "grid grid-cols-1 md:grid-cols-3 gap-8"
+  },
+  "key_components": [
+    {
+      "name": "Navigation Bar",
+      "type": "Fixed Crystal Glass Header",
+      "features": ["YanaRPG SVG Emblem Logo", "Nav Links (Главная, О проекте, Как начать, Новости, Сервера, Сообщество)", "Live Server Counter Indicator (Онлайн: 4,890 / 5,000)", "CTA Button: 'Скачать Лаунчер' with orange glow animation", "Data-testid attributes"]
+    },
+    {
+      "name": "Hero Section",
+      "type": "Cinematic GTA RP Masked Reveal",
+      "features": [
+        "Dynamic high-octane background with dark gradient overlay (bg-black/50)",
+        "Staggered text reveal with Framer Motion (Завоюй Город. Построй Свою Империю)",
+        "Server Status Pill: 12 Серверов Онлайн • x2 Опыт в Выходные",
+        "Action Buttons: 'Начать Играть' (Primary Hot Orange) & 'Смотреть Трейлер' (Glass Play Video)",
+        "Quick Stat Strip (1,2M+ Зарегистрировано, 12 Серверов, 99.9% Uptime, $50k+ Бонусы)"
+      ]
+    },
+    {
+      "name": "Live Servers Section",
+      "type": "Interactive Server Browser Cards",
+      "features": [
+        "Cards for top YanaRPG servers (Arizona-inspired: Yana #1 Phoenix, Yana #2 Tucson, Yana #3 Scottdale, Yana #4 Chandler)",
+        "Real-time progress bars showing capacity (e.g. 980/1000)",
+        "Ping indicator (14ms, 18ms, 22ms)",
+        "Quick Copy IP button with Sonner toast alert"
+      ]
+    },
+    {
+      "name": "Bento Grid: Project Features & Roleplay Roles",
+      "type": "Tetris Grid Layout",
+      "features": [
+        "Bento Item 1 (Hero 2x2): Уникальная Автосистема (100+ тюнингуемых авто, винилы, дрифт-физика)",
+        "Bento Item 2 (Tall 1x2): Криминал & Фракции (Захват территорий, мафии, банды, гето)",
+        "Bento Item 3 (Standard 1x1): Государственные структуры (Полиция, ФБР, Армия, Мэрия)",
+        "Bento Item 4 (Standard 1x1): Собственный Бизнес (АЗС, Закусочные, Отели, Автосалоны)",
+        "Bento Item 5 (Wide 2x1): Кастомный Launcher (Мгновенная установка, голосовой чат, 60+ FPS)"
+      ]
+    },
+    {
+      "name": "How to Start Section",
+      "type": "3-Step Guided Timeline",
+      "features": [
+        "Step 1: Скачай лаунчер YanaRPG (Быстрая загрузка за 2 минуты)",
+        "Step 2: Создай персонажа (Уникальный редактор внешности)",
+        "Step 3: Заходи на сервер (Получи старт-пак 50,000$ и вип-статус)"
+      ]
+    },
+    {
+      "name": "News & Events Section",
+      "type": "Visual-Only News Cards",
+      "features": [
+        "Card 1: Крупное обновление 4.5: Новые гиперкары и винилы (Тег: ОБНОВЛЕНИЕ • 12 Мая)",
+        "Card 2: Летний Ивентовый Пасс: Награды до $1,000,000 (Тег: ИВЕНТ • 10 Мая)",
+        "Card 3: Вайп автосалонов и аукцион недвижимости в Los Santos (Тег: СОБЫТИЕ • 08 Мая)",
+        "Hover glow effects and hot orange badge accents"
+      ]
+    },
+    {
+      "name": "Kinetic Marquee Ribbon",
+      "type": "Infinite Motion Banner",
+      "features": [
+        "Text stream: YANARPG ROLEPLAY • 100+ СУПЕРКАРОВ • БОНУС К ПОПОЛНЕНИЮ X2 • ЖИВОЙ ГОРОД • ГОЛОСОВОЙ ЧАТ • ПРИСОЕДИНЯЙСЯ СЕЙЧАС",
+        "Hot orange glowing divider dots"
+      ]
+    },
+    {
+      "name": "CTA Showcase & Footer",
+      "type": "High-Impact Conversion Banner",
+      "features": [
+        "Title: ТВОЯ ИСТОРИЯ НАЧИНАЕТСЯ ЗДЕСЬ",
+        "Primary action: 'Скачать YanaRPG Launcher'",
+        "Footer links: Discord (120k+), VK Group, Telegram Channel, YouTube",
+        "Copyright & Visual-Only Disclaimer: 'YanaRPG is a fan project website. Not affiliated with Rockstar Games.'"
+      ]
+    }
+  ],
+  "image_urls": {
+    "hero_bg": "https://images.unsplash.com/photo-1772813457685-7ffe55ec191f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NTY2OTF8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjB3YWxscGFwZXIlMjBjeWJlcnB1bmslMjBvcmFuZ2V8ZW58MHx8fHwxNzkxMzY3MjIxfDA&ixlib=rb-4.1.0&q=85",
+    "supercar_night": "https://images.unsplash.com/photo-1630769660701-3454835913dc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2ODh8MHwxfHNlYXJjaHw0fHxzdXBlcmNhciUyMG5pZ2h0JTIwbmVvbiUyMGNpdHl8ZW58MHx8fHwxNzkxMzY3MjIxfDA&ixlib=rb-4.1.0&q=85",
+    "red_sports_car": "https://images.pexels.com/photos/15140372/pexels-photo-15140372.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "blue_tokyo_car": "https://images.pexels.com/photos/35333681/pexels-photo-35333681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "city_skyline_night": "https://images.unsplash.com/photo-1672872476232-da16b45c9001?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTN8MHwxfHNlYXJjaHwyfHxjeWJlcnB1bmslMjBjaXR5JTIwc3Vuc2V0JTIwc2t5bGluZXxlbnwwfHx8fDE3OTEzNjcyMjl8MA&ixlib=rb-4.1.0&q=85",
+    "gta_character_rooftop": "https://images.unsplash.com/photo-1787613543810-8c9d9ddaacb2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NTY2OTF8MHwxfHNlYXJjaHwyfHxnYW1pbmclMjB3YWxscGFwZXIlMjBjeWJlcnB1bmslMjBvcmFuZ2V8ZW58MHx8fHwxNzkxMzY3MjIxfDA&ixlib=rb-4.1.0&q=85"
+  },
+  "motion_and_effects": {
+    "lenis_smooth_scroll": true,
+    "framer_motion_animations": [
+      "Hero masked text line reveal",
+      "Bento item hover elevation and border glow shift",
+      "Server progress bar loading animation",
+      "Modal/Dialog launcher preview mockup"
+    ],
+    "glassmorphism": "backdrop-blur-xl bg-black/70 border border-white/10"
+  },
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Use Russian text throughout all UI strings as specified in user choices.",
+    "Accent colors MUST be hot orange / amber (#FF6B00 / #FFA500). Avoid default blue or purple gradients.",
+    "Add data-testid attributes to all buttons, nav links, server cards, and inputs.",
+    "Ensure header nav background is never transparent (use glassmorphism with backdrop-blur-xl bg-black/70).",
+    "All news cards are visual-only as specified (no external detail page needed, modal preview or subtle toast on click).",
+    "Include live server stats counter and quick copy IP buttons with Sonner notifications."
+  ]
+}
